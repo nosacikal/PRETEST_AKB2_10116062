@@ -32,8 +32,9 @@
         android:id="@+id/cardwelcome"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_below="@+id/image"
-        android:layout_marginTop="148dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:minHeight="100dp"
         app:cardElevation="16dp">
 
         <Button
