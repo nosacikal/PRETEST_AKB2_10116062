@@ -17,6 +17,9 @@ import android.widget.Button;
 * CHANGE LOG Kamis 4 April 2019 10:03
 * 1. Membuat Halaman Login Code
 *
+*  CHANGE LOG Kamis 4 April 2019 10:40
+* 1. Membuat Halaman Biodata
+*
 * */
 
 public class MainActivity extends AppCompatActivity {
