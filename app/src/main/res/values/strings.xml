@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">PRETEST_AKB2_10116062</string>
+
+    <!--String Welcome-->
+    <string name="str_title">Monitory Membantu Anda Mengontrol HP Anak</string>
+    <string name="str_mulai">Mulai</string>
+
+    <!--String Login Kode-->
+    <string name="str_kode_keluarga">Kode Keluarga</string>
+    <string name="str_kodesub">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="str_deskripsi">Dengan menekan tombol masuk berarti Anda menyetujui Ketentuan Pengguna dan Kebijakan Data Kami</string>
+    <string name="str_masuk">Masuk</string>
+    <string name="str_belum">Belum Punya Kode Keluarga ?</string>
+    <string name="str_beli_kode">Beli Kode Keluarga Disini</string>
+
+    <!--String Biodata-->
+    <string name="str_nama">Nama Panggilan Kamu</string>
+    <string name="str_umur">Umur Kamu</string>
+    <string name="str_hint_nama">Contoh : Budi</string>
+    <string name="str_hint_umur">Contoh : 12</string>
+    <string name="str_selanjutnya">Selanjutnya</string>
+
+    <!--String Say Hai-->
+    <string name="str_beres">Beres! Sekarang kamu udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)</string>
+    <string name="str_oke">Oke</string>
+
 </resources>
