@@ -1,9 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/whitethree"
     tools:context=".LoginCode">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/kode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/str_kode_keluarga"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:textSize="28sp"
+        android:textColor="@color/black87"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/subkode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kode"
+        android:fontFamily="@font/rubik_regular"
+        android:text="@string/str_kodesub"
+        android:textColor="@color/black3"
+        android:textSize="16sp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/txtkodekeluarga"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/subkode"
+        android:background="@drawable/custom_kode_keluarga"
+        android:fontFamily="@font/rubik_regular"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:maxLength="30"
+        android:textColor="@color/black3"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtkodekeluarga"
+        android:fontFamily="@font/rubik_regular"
+        android:text="@string/str_deskripsi"
+        android:textColor="@color/black3"
+        android:textSize="11sp"
+        android:textAlignment="center"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnmasuk"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/deskripsi"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button_kuning"
+        android:fontFamily="@font/rubik_regular"
+        android:text="@string/str_masuk"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmasuk"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="154dp"
+        android:layout_marginBottom="0dp"
+        app:cardElevation="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/belum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/rubik_regular"
+                android:text="@string/str_belum"
+                android:textColor="@color/gunmetal"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btnbelikode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/belum"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_button_kode"
+                android:fontFamily="@font/rubik_regular"
+                android:text="@string/str_beli_kode"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
