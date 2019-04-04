@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginCode"></activity>
+        <activity android:name=".LoginCode" />
+        <activity android:name=".Biodata"></activity>
     </application>
 
 </manifest>

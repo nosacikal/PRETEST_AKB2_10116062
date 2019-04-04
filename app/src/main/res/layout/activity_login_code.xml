@@ -111,6 +111,7 @@
                 android:layout_marginLeft="26dp"
                 android:layout_marginRight="26dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="12dp"
                 android:background="@drawable/custom_button_kode"
                 android:fontFamily="@font/rubik_regular"
                 android:text="@string/str_beli_kode"
