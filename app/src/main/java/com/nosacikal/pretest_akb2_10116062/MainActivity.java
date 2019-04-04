@@ -12,7 +12,12 @@ import android.widget.Button;
 * AKB-2 (IF-2)
 *
 * CHANGE LOG Kamis 4 April 2019 08:58
-* 1. Membuat Halaman Welcome*/
+* 1. Membuat Halaman Welcome
+*
+* CHANGE LOG Kamis 4 April 2019 10:03
+* 1. Membuat Halaman Login Code
+*
+* */
 
 public class MainActivity extends AppCompatActivity {
 
